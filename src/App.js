@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import logo from './logo'
+import Logo from './logo'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <logo />
+        <Logo />
         <p>
-          My first React website!
+          Psy!
         </p>
         <a
           className="App-link"

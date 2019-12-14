@@ -1,9 +1,9 @@
 import React from 'react';
 
 function logo() {
-  const url = 'C:\Users\pichi\Desktop\Studia\Dogger\dogger\src\logo.png';
+  const url = 'https://github.com/wniedzwiedz/dogger/blob/master/src/logo.png?raw=true';
   return (
-    <img src={url} style={{width: 650}} alt='Image of Golden Gate Bridge' />
+    <img src={url} style={{width: 650}} alt='Image' />
   );
 }
 
