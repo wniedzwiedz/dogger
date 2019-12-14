@@ -1,27 +1,26 @@
- import React from 'react';
-    import {
-      AppRegistry,
-      StyleSheet,
-      View,
-    } from 'react-native';
-    import Home from './home'
+import React from 'react';
+import './App.css';
+import logo from './logo'
 
-    class App extends React.Component {
-      render() {
-        return (
-          <View style={styles.appContainer}>
-            <Home />
-          </View>
-        );
-      }
-    }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <logo />
+        <p>
+          My first React website!
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
 
-    const styles = StyleSheet.create({
-      appContainer: {
-        flex: 1,
-      },
-    });
-
-    AppRegistry.registerComponent('App', () => App);
-
-    export default App;
+export default App;
