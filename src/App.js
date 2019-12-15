@@ -53,7 +53,7 @@ function App() {
 
       </View>
 
-      <View style={[{ width: "100%", margin: 100,flexDirection: "row", alignItems:"center"}]}>
+      <View style={[{ width: "100%", margin: 50,flexDirection: "row", alignItems:"center"}]}>
 
       <View style={[{ width: "30%",  alignItems:"left", marginRight: "2.5%"}]}>
       <Button title="B1" color='#00ff00'/>
