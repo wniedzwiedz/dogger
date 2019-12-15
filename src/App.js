@@ -40,14 +40,14 @@ function App() {
 
         <Button 
         title="LIKE" 
-        color='#0000ff'
+        color='#fd0006'
         />
         </View>
 
         <View style={[{ width: "80%", margin: "10%" }]}>
         <Button 
         title="NEXT" 
-        color='#ff0000'
+        color='#009b95'
           />
 
       </View>
@@ -55,13 +55,13 @@ function App() {
       <View style={[{ width: "90%", margin: "5%",flexDirection: "row", alignItems:"center"}]}>
 
       <View style={[{ width: "30%",  alignItems:"left", marginRight: "2.5%"}]}>
-      <Button title="B1" color='#00ff00'/>
+      <Button title="Liked" color='#a2ef00'/>
       </View>
       <View style={[{ width: "30%",  alignItems:"left",margin: "2.5%"}]}>
-      <Button title="B2" color='#00ff00'/>
+      <Button title="Profile" color='#a2ef00'/>
       </View>
       <View style={[{ width: "30%",  alignItems:"left", marginLeft: "2.5%"}]}>
-      <Button title="B3" color='#00ff00'/>
+      <Button title="Randoms" color='#a2ef00'/>
       </View>
 
 
