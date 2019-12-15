@@ -4,6 +4,15 @@ import Logo from './logo'
 
 import DogPhoto from './DogPhoto'
 
+import {
+  StyleSheet,
+  Button,
+  View,
+  SafeAreaView,
+  Text,
+  Alert,
+  } from 'react-native';
+
 function App() {
   return (
     <div className="App">
