@@ -26,34 +26,33 @@ function App() {
     
 
   }}>
-        <View style={{width: 950, alignItems:"left"}}>
+        <View style={{width: "55%", alignItems:"left", marginLeft: "5%"}}>
 
        
         <DogPhoto />
         </View>
-        <View style={{flexDirection: "column",width: 350, alignItems:"center"}}>
+        <View style={{flexDirection: "column",width: "30%", alignItems:"center", marginRight: "5%"}}>
         <p>
         info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info 
         </p>
      
-        <View style={[{ width: "80%", margin: 10 }]}>
+        <View style={[{ width: "80%",  margin: "10%" }]}>
 
         <Button 
         title="LIKE" 
         color='#0000ff'
-        onPress={() => Alert.alert('Simple Button pressed')}
-     
         />
         </View>
 
-        <View style={[{ width: "80%", margin: 10 }]}>
-        <Button title="NEXT" color='#ff0000'
-          onPress={() => Alert.alert('Simple Button pressed')}
+        <View style={[{ width: "80%", margin: "10%" }]}>
+        <Button 
+        title="NEXT" 
+        color='#ff0000'
           />
 
       </View>
 
-      <View style={[{ width: "100%", margin: 50,flexDirection: "row", alignItems:"center"}]}>
+      <View style={[{ width: "90%", margin: "5%",flexDirection: "row", alignItems:"center"}]}>
 
       <View style={[{ width: "30%",  alignItems:"left", marginRight: "2.5%"}]}>
       <Button title="B1" color='#00ff00'/>

@@ -17,12 +17,9 @@ render(){
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "left",
-    marginRight: 10
   }}
 >
-  
-
-    <img src={url} style={{width: 750, alignItems:"left"}} alt='Image'  />
+    <img src={url} style={{width: "100%", alignItems:"left"}} alt='Image'  />
     </View>
   );
 }
