@@ -9,7 +9,7 @@ import { render } from '@testing-library/react';
 class DogPhoto extends React.Component {
 
 render(){
-  const url = 'https://www.zooplus.pl/magazyn/wp-content/uploads/2018/04/maltanczyk.jpg';
+  const url = 'https://github.com/wniedzwiedz/dogger/blob/master/src/elmo.JPG?raw=true';
   return (
 
 
