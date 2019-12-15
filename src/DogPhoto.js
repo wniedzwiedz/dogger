@@ -16,7 +16,7 @@ render(){
   <View style={{
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center",
+    alignItems: "left",
     marginRight: 10
   }}
 >
