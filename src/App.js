@@ -5,13 +5,11 @@ import Logo from './logo'
 import DogPhoto from './DogPhoto'
 
 import {
-  StyleSheet,
   Button,
   View,
-  SafeAreaView,
-  Text,
-  Alert,
   } from 'react-native';
+
+  
 
 function App() {
   return (
@@ -28,13 +26,12 @@ function App() {
   }}>
         <View style={{width: "55%", alignItems:"left", marginLeft: "5%"}}>
 
-       
         <DogPhoto />
         </View>
         <View style={{flexDirection: "column",width: "30%", alignItems:"center", marginRight: "5%"}}>
+        <h1>IMIĘ</h1>
         <p>
-        info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info 
-        </p>
+a        </p>
      
         <View style={[{ width: "80%",  margin: "10%" }]}>
 
