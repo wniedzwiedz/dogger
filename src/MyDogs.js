@@ -11,7 +11,7 @@ import {
   } from 'react-native';
 
 
-  function Dogs() {
+  function MyDogs() {
     return (
       <div className="Dogs">
         <header className="Dogs-header">
@@ -24,9 +24,9 @@ import {
     }}>
 
 <Buttons/>
-<FivePhotos/>
-<FivePhotos/>
-<More/>
+<MyDog/>
+<MyDog/>
+<MyDog/>
 
 
 
@@ -36,4 +36,4 @@ import {
         </header>
         </div>
     );}
-    export default Dogs;
+    export default MyDogs;
