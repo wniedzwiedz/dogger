@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import Buttons from './Buttons'
-import More from './More'
-import FivePhotos from './FivePhotos'
 import MyDog from './MyDog'
 
 import {
@@ -19,7 +17,7 @@ import {
       flexDirection: "column",
       justifyContent: "space-between",
       alignItems: "center",
-
+            width:"100%"
       
     }}>
 
@@ -27,7 +25,6 @@ import {
 <MyDog/>
 <MyDog/>
 <MyDog/>
-
 
 
 

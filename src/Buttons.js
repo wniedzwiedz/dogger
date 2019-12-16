@@ -10,7 +10,7 @@ class Buttons extends React.Component {
 render(){
   
   return (
-<View style={{width: "96%", alignItems:"left", margin: "1%",flexDirection: "row"}}>
+<View style={{width: "100%", alignItems:"center", flexDirection: "row",backgroundColor: "#FFFFFF"}}>
 
 <View style={[{ width: "20%",  alignItems:"left", marginRight: "5%", marginLeft: "2.5%"}]}>
       <Button title="Liked" color='#a2ef00'/>
